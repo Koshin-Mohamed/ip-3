@@ -4,42 +4,37 @@ html {
   padding: 0;
 }
 #banner {
-  position: relative;
+  background-image: url(/assets/backgrounds/h_img.jpg);
+  background-size: cover;
+  height: 105vh;
+  max-width: 100%;
+}
+#logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 250px;
 }
 #welcome {
   font-size: 50px;
   color: white;
-  position: absolute;
-  top: 375px;
-  left: 40.5%;
+  text-align: center;
+  padding-top: 30px;
 }
 #dlstudio {
   font-size: 48px;
   color: white;
-  position: absolute;
-  top: 460px;
-  left: 34%;
+  text-align: center;
+  padding-top: 25px;
 }
 #slogan {
-  color: white;
-  position: absolute;
-  top: 530px;
-  left: 32%;
   font-size: 13px;
-}
-#logo {
-  position: absolute;
-  top: 235px;
-  left: 45.5%;
+  color: white;
+  text-align: center;
+  margin-top: 0px auto;
+  padding-top: 10px;
 }
 #click {
-  position: absolute;
-  margin: auto;
-  top: 730px;
-  left: 48%;
-}
-#about-us{
-  text-align: center;
-  margin-top: 50px; 
-  margin-bottom: 50px;
-}
+  display: block;
+  margin: 0 auto;
+  padding-top: 158px;
+} 
