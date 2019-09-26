@@ -38,3 +38,27 @@ html {
   margin: 0 auto;
   padding-top: 158px;
 } 
+ #about-us{
+  text-align: center;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+}
+.row{
+  margin: 0;
+}
+/*
+#office{
+  position: relative; 
+}
+#services{
+  text-align: center;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+  position: absolute;
+  top: 1180px;
+  left: 10%;
+  color: white;
+}
+h2{
+  font-size: 27px;
+}
