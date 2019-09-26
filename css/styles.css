@@ -38,3 +38,8 @@ html {
   top: 730px;
   left: 48%;
 }
+#about-us{
+  text-align: center;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+}
