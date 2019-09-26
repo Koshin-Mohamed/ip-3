@@ -1,0 +1,40 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+#banner {
+  position: relative;
+}
+#welcome {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 375px;
+  left: 40.5%;
+}
+#dlstudio {
+  font-size: 48px;
+  color: white;
+  position: absolute;
+  top: 460px;
+  left: 34%;
+}
+#slogan {
+  color: white;
+  position: absolute;
+  top: 530px;
+  left: 32%;
+  font-size: 13px;
+}
+#logo {
+  position: absolute;
+  top: 235px;
+  left: 45.5%;
+}
+#click {
+  position: absolute;
+  margin: auto;
+  top: 730px;
+  left: 48%;
+}
