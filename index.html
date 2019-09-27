@@ -59,55 +59,68 @@
       <h2>WHAT WE DO</h2>
       <div class="row" id="graphics">
         <div class="col-md-4">
-          <img
-            class="img-fluid"
-            src="/assets/services_icons/design_icon.png"
-            alt="A graphic of a pen"
-          />
-          <p>DESIGN</p>
-          <p class="description">
-            Our design practice offers a full range of services including brand
-            strategy, interaction, visual design, and user experience testing.
-          </p>
-          <p class="description">
-            Through your project, our designers create and implement visual
-            design and workflows, solicit user feedback, and work with you to
-            make sure what gets built is what is needed.
-          </p>
+          <div id="show-design">
+            <img
+              class="img-fluid what-we-do-design"
+              src="/assets/services_icons/design_icon.png"
+              alt="A graphic of a pen"
+            />
+            <p>DESIGN</p>
+          </div>
+          <div id="hide-design">
+            <p class="what-we-do-design">
+              Our design practice offers a full range of services including
+              brand strategy, interaction, visual design, and user experience
+              testing.
+            </p>
+            <p class="what-we-do-design">
+              Through your project, our designers create and implement visual
+              design and workflows, solicit user feedback, and work with you to
+              make sure what gets built is what is needed.
+            </p>
+          </div>
         </div>
         <div class="col-md-4">
-          <img
-            class="img-fluid"
-            src="/assets/services_icons/dev_icon.png"
-            alt="A graphic of a webpage"
-          />
-          <p>DEVELOPMENT</p>
-          <p class="description">
-            All engineers are fluent in the latest enterprise, mobile, and web
-            development technologies.
-          </p>
-          <p class="description">
-            They collaborate with your team to write and improve, code on a
-            daily basis, using proven practices such as test-driven development
-            and pair programing.
-          </p>
+          <div id="show-dev">
+            <img
+              class="img-fluid what-we-do-dev"
+              src="/assets/services_icons/dev_icon.png"
+              alt="A graphic of a webpage"
+            />
+            <p>DEVELOPMENT</p>
+          </div>
+          <div id="hide-dev">
+            <p class="what-we-do-dev">
+              All engineers are fluent in the latest enterprise, mobile, and web
+              development technologies.
+            </p>
+            <p class="what-we-do-dev">
+              They collaborate with your team to write and improve, code on a
+              daily basis, using proven practices such as test-driven
+              development and pair programing.
+            </p>
+          </div>
         </div>
         <div class="col-md-4">
-          <img
-            class="img-fluid"
-            src="/assets/services_icons/product_icon.png"
-            alt="A graphic of a clipboard with a checklist"
-          />
-          <p>PRODUCT MANAGEMENT</p>
-          <p class="description">
-            Planning and development is iterative. Because we are constantly
-            coding and testing, the products we build are always ready to go
-            live.
-          </p>
-          <p class="description">
-            This iterative process allows for changes as business requirements
-            evolve.
-          </p>
+          <div id="show-manage">
+            <img
+              class="img-fluid what-we-do-manage"
+              src="/assets/services_icons/product_icon.png"
+              alt="A graphic of a clipboard with a checklist"
+            />
+            <p>PRODUCT MANAGEMENT</p>
+          </div>
+          <div id="hide-manage">
+            <p class="what-we-do-manage">
+              Planning and development is iterative. Because we are constantly
+              coding and testing, the products we build are always ready to go
+              live.
+            </p>
+            <p class="what-we-do-manage">
+              This iterative process allows for changes as business requirements
+              evolve.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -178,8 +191,8 @@
     <div id="contact-us">
       <h2>CONTACT US</h2>
       <form id="form" action="">
-        <input type="text" placeholder="Name..." />
-        <input type="email" placeholder="Email..." />
+        <input type="text" placeholder="Name..." required/>
+        <input type="email" placeholder="Email..." required />
         <br />
         <textarea
           name="message"

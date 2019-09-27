@@ -63,19 +63,16 @@ h2 {
   padding-top: 20px;
   margin-bottom: 40px;
 }
-.description {
-  display: none;
-}
 .work {
-  width: 250px;
-  height: 220px;
+  width: 110%;
+  height: 105%;
 }
 .portfolio-one {
   text-align: center;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 30px 0;
 }
 .portfolio-two {
-  margin: 30px 0 50px 0;
+  margin: 30px 0 70px 0;
   text-align: center;
 }
 #contact-us {
@@ -135,4 +132,10 @@ textarea {
   padding: 47px 0 20px 0;
   text-align: center;
   display: block;
+}
+#hide-design, #hide-dev, #hide-manage {
+  display: none;
+}
+.what-we-do-design, .what-we-do-dev, .what-we-do-manage{
+  cursor: pointer;
 }
