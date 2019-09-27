@@ -133,9 +133,13 @@ textarea {
   text-align: center;
   display: block;
 }
-#hide-design, #hide-dev, #hide-manage {
+#hide-design,
+#hide-dev,
+#hide-manage {
   display: none;
 }
-.what-we-do-design, .what-we-do-dev, .what-we-do-manage{
+.what-we-do-design,
+.what-we-do-dev,
+.what-we-do-manage {
   cursor: pointer;
 }
