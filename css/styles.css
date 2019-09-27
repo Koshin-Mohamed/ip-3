@@ -7,7 +7,6 @@ html {
   background-image: url(/assets/backgrounds/h_img.jpg);
   background-size: cover;
   height: 105vh;
-  max-width: 100%;
 }
 #logo {
   display: block;
@@ -83,4 +82,45 @@ h2 {
 .portfolio-two {
   margin: 30px 0 50px 0;
   text-align: center;
+}
+#contact-us {
+  background-image: url(/assets/backgrounds/c_image.jpg);
+  background-size: cover;
+  width: auto;
+  height: 72vh;
+}
+#contact-us h2 {
+  color: white;
+  padding-top: 40px;
+}
+#form {
+  text-align: center;
+  margin-top: 35px;
+}
+input[type="text"] {
+  background: transparent;
+  border: white;
+  border-style: solid;
+  border-width: 1px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-color: white;
+}
+input[type="email"] {
+  margin-left: 18px;
+  background: transparent;
+  border: white;
+  border-style: solid;
+  border-width: 1px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-color: white;
+}
+textarea {
+  background: transparent;
+  border-color: white;
+}
+::placeholder {
+  color: white;
+  padding-left: 10px;
 }
