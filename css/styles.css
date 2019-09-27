@@ -1,8 +1,3 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
 #banner {
   background-image: url(/assets/backgrounds/h_img.jpg);
   background-size: cover;
@@ -123,4 +118,21 @@ textarea {
 ::placeholder {
   color: white;
   padding-left: 10px;
+}
+#footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#footer p {
+  margin: 0;
+  font-size: 14px;
+  padding-top: 0;
+}
+.social {
+  padding-left: 20px;
+}
+.icons {
+  padding: 47px 0 20px 0;
+  text-align: center;
+  display: block;
 }
