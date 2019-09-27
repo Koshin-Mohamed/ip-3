@@ -1,5 +1,5 @@
 #banner {
-  background-image: url(assets/backgrounds/h_img.jpg);
+  background-image: url("/assets/backgrounds/h_img.jpg");
   background-size: cover;
   height: 105vh;
 }
@@ -41,7 +41,7 @@
   margin: 0;
 }
 #office {
-  background-image: url(assets/backgrounds/s_image.jpg);
+  background-image: url("/assets/backgrounds/s_image.jpg");
   background-size: cover;
   width: auto;
   height: 53vh;
@@ -76,7 +76,7 @@ h2 {
   text-align: center;
 }
 #contact-us {
-  background-image: url(assets/backgrounds/c_image.jpg);
+  background-image: url("/assets/backgrounds/c_image.jpg");
   background-size: cover;
   width: auto;
   height: 72vh;
