@@ -11,4 +11,5 @@ $(document).ready(function() {
     $("#show-manage").toggle();
     $("#hide-manage").toggle();
   });
+  
 });
