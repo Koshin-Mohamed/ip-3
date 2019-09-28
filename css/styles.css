@@ -6,19 +6,19 @@
 #logo {
   display: block;
   margin: 0 auto;
-  padding-top: 250px;
+  padding-top: 260px;
 }
 #welcome {
   font-size: 50px;
   color: white;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 #dlstudio {
   font-size: 48px;
   color: white;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 #slogan {
   font-size: 13px;
@@ -30,7 +30,7 @@
 #click {
   display: block;
   margin: 0 auto;
-  padding-top: 158px;
+  padding-top: 155px;
 }
 #about-us {
   text-align: center;
