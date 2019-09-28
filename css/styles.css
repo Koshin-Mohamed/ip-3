@@ -66,7 +66,8 @@ h2 {
 .work {
   margin: 15px;
 }
-.portfolio-one, .portfolio-two{
+.portfolio-one,
+.portfolio-two {
   text-align: center;
 }
 #contact-us {
@@ -132,6 +133,9 @@ textarea {
 #hide-dev,
 #hide-manage {
   display: none;
+}
+.title {
+  font-weight: bold;
 }
 .what-we-do-design,
 .what-we-do-dev,
