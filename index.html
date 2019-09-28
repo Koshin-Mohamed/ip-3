@@ -131,88 +131,114 @@
     <div class="container">
       <h2>PORTFOLIO</h2>
       <div class="row portfolio-one">
-        <div class="col-md-3">
+        <div class="col-md-3 folio">
           <img
             id="gray-bg"
             class="img-fluid work"
             src="assets/portfolio/work4.jpg"
             alt="A picture of a gray background"
           />
+          <div>
+            <p>SLATE GRAY BACKGROUND</p>
+          </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 folio">
           <img
             id="security-logo"
             class="img-fluid work"
             src="assets/portfolio/work3.jpg"
             alt="A picture of Ontario Security logo"
           />
+          <div>
+            <p>Mighty Ontario Security Logo</p>
+          </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 folio">
           <img
             id="geo-brown-bg"
             class="img-fluid work"
             src="assets/portfolio/work2.jpg"
             alt="A picture of geometric brown tones background"
           />
+          <div>
+            <p>Brown Geometric Gradient Background</p>
+          </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 folio">
           <img
             id="dashboard-site"
             class="img-fluid work"
             src="assets/portfolio/work1.jpg"
             alt="A picture of a dashboard website"
           />
+          <div>
+            <p>User Dashboard Website</p>
+          </div>
         </div>
       </div>
 
       <div class="row portfolio-two">
-        <div class="col-md-3">
+        <div class="col-md-3 folio">
           <img
-            id="clients-site"
+            id="client-site"
             class="img-fluid work"
             src="assets/portfolio/work5.jpg"
             alt="A picture of a clients website"
           />
+          <div>
+            <p>Elexa Website</p>
+          </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 folio">
           <img
             id="inputs-site"
             class="img-fluid work"
             src="assets/portfolio/work6.jpg"
             alt="A picture of a website with inputs"
           />
+          <div>
+            <p>Settings Inputs Dashboard</p>
+          </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 folio">
           <img
             id="burned-logo"
             class="img-fluid work"
             src="assets/portfolio/work7.jpg"
             alt="A picture of a mock-up logo burned on to wood"
           />
+          <div>
+            <p>Burned Logo Mock-up Sample</p>
+          </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 folio">
           <img
-            id="restaurant logo"
+            id="restaurant-logo"
             class="img-fluid work"
             src="assets/portfolio/work8.jpg"
             alt="A picture of a giraffe restaurant logo"
           />
+          <div>
+            <p>Giraffe Restaurant Logo</p>
+          </div>
         </div>
       </div>
     </div>
     <div id="contact-us">
       <h2>CONTACT US</h2>
       <form id="form" action="">
-        <input type="text" placeholder="Name..." />
-        <input type="email" placeholder="Email..." />
-        <br />
+        <input id="name" type="text" name="name" placeholder="Name..." required />  
+        <input id="email" type="email" name="email" placeholder="Email..." required/>
         <textarea
           name="message"
           id="message"
           cols="100"
           rows="10"
           placeholder="Your message here..."
+          required
         ></textarea>
+        <br>
+        <button id="submit">Submit</button>
       </form>
     </div>
     <div id="footer" class="container">

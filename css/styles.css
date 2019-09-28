@@ -82,8 +82,8 @@ h2 {
   padding-top: 40px;
 }
 #form {
+  margin-top: 20px;
   text-align: center;
-  margin-top: 35px;
 }
 input[type="text"] {
   background: transparent;
@@ -141,4 +141,30 @@ textarea {
 .what-we-do-dev,
 .what-we-do-manage {
   cursor: pointer;
+}
+.folio {
+  position: relative;
+  width: 100%;
+}
+.folio div {
+  position: absolute;
+  text-align: left;
+  bottom: 4.5vh;
+  left: 3.8vw;
+  font-weight: bolder;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  height: 160px;
+  width: 200px;
+  color: white;
+  font-size: 25px;
+  line-height: 1;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.7);
+}
+#submit{
+  background: transparent;
+  border-color: white;
+  color: white;
 }
