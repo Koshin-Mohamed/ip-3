@@ -146,10 +146,17 @@ textarea {
   position: relative;
   width: 100%;
 }
-.folio div {
+#gray-bg-text,
+#security-logo-text,
+#geo-brown-bg-text,
+#dashboard-site-text,
+#client-site-text,
+#inputs-site-text,
+#burned-logo-text,
+#restaurant-logo-text {
   position: absolute;
   text-align: left;
-  bottom: 4.5vh;
+  bottom: 3.3vh;
   left: 3.8vw;
   font-weight: bolder;
   border-style: solid;
@@ -162,8 +169,9 @@ textarea {
   line-height: 1;
   padding: 8px;
   background: rgba(0, 0, 0, 0.7);
+  display: none;
 }
-#submit{
+#submit {
   background: transparent;
   border-color: white;
   color: white;
