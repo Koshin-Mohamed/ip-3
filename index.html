@@ -3,6 +3,10 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Delani Studio</title>
@@ -218,31 +222,56 @@
     </div>
     <div id="contact-us">
       <h2>CONTACT US</h2>
-      <form id="form" method="POST">
+      <form
+        id="form"
+        action="https://gmail.us20.list-manage.com/subscribe/post?u=bda91171ca590c9a070373adf&amp;id=2b12f9ee69"
+        method="post"
+        class="validate"
+        target="_blank"
+        novalidate
+      >
+        <label for="NAME"></label>
         <input
-          id="name"
+          id="NAME"
           type="text"
-          name="name"
+          value=""
+          name="NAME"
+          class=""
           placeholder="Name..."
           required
         />
+        <label for="NAME"></label>
         <input
-          id="email"
+          id="EMAIL"
           type="email"
-          name="email"
+          value=""
+          name="EMAIL"
+          class="required email"
           placeholder="Email..."
           required
         />
+        <label for="MESSAGE"></label>
         <textarea
-          name="message"
-          id="message"
+          name="MESSAGE"
+          id="MESSAGE"
+          value=""
+          name="MESSAGE"
+          class=""
           cols="100"
           rows="10"
           placeholder="Your message here..."
           required
         ></textarea>
         <br />
-        <button id="submit" value="submit">Submit</button>
+        <div class="clear">
+          <input
+            type="submit"
+            name="submit"
+            id="submit"
+            value="Submit"
+            class="button"
+          />
+        </div>
       </form>
     </div>
     <div id="footer" class="container">

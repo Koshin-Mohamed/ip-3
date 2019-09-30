@@ -68,48 +68,37 @@ $(document).ready(function() {
     $("#restaurant-logo-text").hide();
   });
 
-  $("#name").mouseover(function() {
-    $("#name").css("background-color", "white");
+  $("#NAME").mouseover(function() {
+    $("#NAME").css("background-color", "white");
   });
-  $("#email").mouseover(function() {
-    $("#email").css("background-color", "white");
+  $("#EMAIL").mouseover(function() {
+    $("#EMAIL").css("background-color", "white");
   });
-  $("#message").mouseover(function() {
-    $("#message").css("background-color", "white");
+  $("#MESSAGE").mouseover(function() {
+    $("#MESSAGE").css("background-color", "white");
   });
   $("#submit").mouseover(function() {
     $("#submit").css("background-color", "white");
     $("#submit").css("color", "black");
   });
-  // $("#form").submit(function(event) {
-  //   $("#name").val();
-  //   $("#email").val();
-  //   $("#message").val();
-  //   alert(
-  //     "Success! Message sent. Thanks for contacting us, you'll be hearing from us very soon."
-  //   );
-  //   event.preventDefault();
-  // });
 
   $("#form").bind("submit", function(event) {
     event.preventDefault();
     var name = $('[name="name"]').val();
     var email = $('[name="email"]').val();
-    var message = $('[name="message"]').val();
     var url =
       "https://u20.api.mailchimp.com/2.0/lists/subscribe.json?" +
-      "apikey=64a0400834ed78d8a8e15919a870931a-us20&id=2b12f9ee69";
-    "&email[email]=" +
+      "apikey=e0b7dd79b265959571522390e6999bf9-us20&id=2b12f9ee69" +
+      "&email[email]=" +
       email +
-      "&merge_vars[name]=" +
+      "&merge_vars[NAME]=" +
       name +
-      "&merge_vars[message]=" +
-      message +
       "&double_optin=true" +
       "&send_welcome=true";
     $.ajax({
       type: "POST",
       url: url,
+      contentType: "application/json; charset=utf-8",
       dataType: "json"
     });
     alert(
